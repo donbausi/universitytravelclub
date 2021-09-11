@@ -10,11 +10,14 @@ Einzelne fonts wurden direkt eingebunden und weitere kleinere Elemtente, wie zB.
 
 Diverse Elemente besitzen noch keine richtige Funktion und müssen noch "befüllt" werden. :
   - Seite1. newsletter abonnieren (könnte link auf unteren Button sein)
-  - S1. navbar - menüButton
+  - S1. navbar - rechtes Rechteck ausfüllen / Hintergrund weg + auf bg
   - S1. mehr erfahren der anderen Seiten
-  - S1. newsletter button unten (sowohl grafisch, als auch funktionell)
   - S1. impressum / datenschutz ?! sollten nur 2 .html abgeben ?!
+
   - Seite2. genauso navbar - menübutton
   - S2. button - platz reservieren
   - S2. kosten - Schrift überlappt in mittlerer Auflösung
   - S2. erwartungen sind nur img bisher - keine Interagierbaren Elemente
+
+  - footer. logos noch direkt an Schrift bekommen
+  - newsletter button (sowohl grafisch, als auch funktionell)
