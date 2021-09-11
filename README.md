@@ -7,6 +7,7 @@ Dieses Projekt wurde mit HTML, CSS und Bootstrap entworfen, wobei vor allem die 
 Hier können tolle Elemente benutzt werden, wie vordefinierte Buttons, Layouts und so komplexe Elemente wie das Accordion oder das Karussel stehen zum Abruf bereit.
 Vor allem die Arbeit mit den Breakpoints (für wann die Seite umbricht und sich anders darstellt) muss erst ordentlich verstanden werden, hilft dann aber ungemein!
 Einzelne fonts wurden direkt eingebunden und weitere kleinere Elemtente, wie zB. Icons, stammen von fontawesome.com. (Chevron-up...)
+Weitere Hinweise, wie der Code funktioniert (eigentlich nur einfaches HTML + CSS), ist direkt als Kommentar untergebracht.
 
 Diverse Elemente besitzen noch keine richtige Funktion und müssen noch "befüllt" werden. :
   - Seite1. newsletter abonnieren (könnte link auf unteren Button sein)
