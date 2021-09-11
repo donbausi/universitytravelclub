@@ -1,0 +1,422 @@
+/*!
+ * Version - 0.1
+ * 
+ * Copyright (c) Julian Durchstecher
+ * 04.09.2021
+ */
+
+/* font area */ 
+/* lato  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+/* typewriter family  */
+@import url('./../fonts/ufonts.com_american-typewriter.ttf');
+@import url('./../fonts/ufonts.com_american-typewriter-light.ttf');
+@import url('./../fonts/ufonts.com_american-typewriter-condensed.ttf');
+@import url('./../fonts/ufonts.com_american-typewriter-condensed-light.ttf');
+@import url('./../fonts/ufonts.com_american-typewriter-condensed-bold.ttf');
+@import url('./../fonts/ufonts.com_american-typewriter-bold.ttf');
+/* start area */
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'American Typewriter', cursive;
+
+    src: url('./../fonts/ufonts.com_american-typewriter.ttf') format('truetype'), 
+        url('./../fonts/ufonts.com_american-typewriter-condensed-bold.ttf') format('truetype'), 
+        url('./../fonts/ufonts.com_american-typewriter-condensed-light.ttf') format('truetype'), 
+        url('./../fonts/ufonts.com_american-typewriter-condensed.ttf') format('truetype'), 
+        url('./../fonts/ufonts.com_american-typewriter-light.ttf') format('truetype'), 
+        url('./../fonts/ufonts.com_american-typewriter-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    min-width: 520px !important;
+    max-width: 1480px !important;
+    margin: auto !important;
+
+}
+/* breakpoints  */
+/* minimum 580 px  */
+@media screen and (max-width: 580px) {
+    .new_text {
+            font-size: 0.7rem !important;
+    }
+    .card-title {
+        font-size: 0.9rem !important;
+    }
+    .reise-title {
+        font-size: 0.6rem !important;
+    }
+    .h1text{
+        font-size: 3rem;
+    }
+}
+/* medium size 580 to 1080  */
+@media screen and (min-width: 581px) and (max-width: 1080px){
+    .new_text {
+            font-size: 1rem !important;
+    }
+    .card-title {
+        font-size: 1.2rem !important;
+    }
+    .reise-title {
+        font-size: 0.9rem !important;
+    }
+    .h1text{
+        font-size: 5rem;
+    }
+}
+/* large size above 1081 */
+@media screen and (min-width: 1081px){
+    .new_text {
+        font-size: 1.7rem !important;
+    }
+    .card-title {
+        font-size: 1.9rem !important;
+    }
+    .reise-title {
+        font-size: 1.2rem;
+    }
+    .h1text{
+        font-size: 7rem;
+    }
+}
+
+/* Hacky Hacky / cut off at 1480 */
+@media screen and (max-width: 1479px){
+    /* Navbar adjustments*/
+    .navbar{
+        right: 55px !important;
+    }
+    #navABS{
+        right:0px important;
+    }
+}
+@media screen and (min-width: 1480px){
+    /* Navbar adjustments*/
+.navbar{
+    right: calc((100% - 1480px)/2 + 55px);
+    }
+}
+
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+#home {
+    background-image: url("./../img/pexels-belle-co-1000445.jpg");
+    background-size: 100%;
+    background-position: center center;
+    width:100%;
+    background-repeat: no-repeat;
+    color: white;
+    align-items: center;
+}
+/* logo  */
+#home img {
+    margin: 0px 0 0 25px;
+    width:35%;
+}
+.home{
+    padding:20px;
+}
+section{
+    min-height: 100%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* mouseover links */
+a:hover{
+    color:black;
+}
+#reiseangebot{
+    margin-top: 5%;
+}
+h1,h2,h3,h5 {
+    font-family: 'Domus Titling', cursive;
+}
+h1{
+    color:rgb(0, 0, 0);
+}
+h2{
+    margin: 30% 0 0 0;
+}
+h5{
+    color:white;
+}
+p{
+    margin: 0 0 3% 10px;
+    color: rgb(0, 0, 0)
+}
+h5.card-text{
+    margin-top:30%;
+    color:dark; 
+}
+
+/* Navbar adjustments*/
+#home .navbar{
+    position: absolute !important;
+    background: none !important;
+}
+
+/* HOME - Newsletter link Farbe, Position */
+a.nav-link.active{
+    color:white;
+    padding-right: 20;
+    position: relative;
+}
+/* HOME - MenüButton */
+button.navbar-toggler{
+    padding-left: 40;
+    color:lawngreen;
+}
+/* HOME - nächste Section PFEIL  */
+#home a.reise{
+    float:right;
+    margin: 0px 50% 0px auto;
+    align-items: center;
+}
+
+#home p{
+    font-family: '.com_american-typewriter-light', serif;
+    font-weight: 100;
+    color:grey;
+}
+/* Part: Reiseangebote
+    RAND FÜR ALLE REISEANGEBOTE */
+#reiseangebot h1{
+    font-family: 'American Typewriter', serif;
+    font-weight: bolder;
+    font-weight: 900;
+}
+#island img{
+    border: 1px solid #58e1f3;
+}
+#gaa img{
+    border: 1px solid rgb(220, 221, 147);
+}
+#schott img{
+    border: 1px solid rgb(4, 66, 20);
+}
+#hawaii img{
+    border: 1px solid rgb(6, 185, 230);
+}
+/* Texte in Karten */
+#cardTitel{
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+}
+#cardText1{
+    position: absolute;
+    bottom: 2%;
+    left: 3%;
+}
+#cardText2{
+    position: absolute;
+    bottom: 2%;
+    right: 3%;
+}
+#reiseangebot a.reise{
+    color:rgb(6, 185, 230);
+    position: absolute;
+    left:50%;
+}
+
+/* feedback - Bilder innerhalb des Karussel */
+#feedback{
+    color:black;
+    min-height: none;
+}
+#feedback p{
+    font-family: cursive;
+    color:black;
+}
+#feedback h4{
+    text-align: right;
+    font-family: cursive;
+}
+#carouselExampleCaptions div.carousel-inner{
+    max-height: 400px;
+    min-height: 400px;
+    color:black;
+    align-items: center;
+}
+.carousel-indicators [data-bs-target]{
+    background-color:black;
+}
+/* Part: about - seite anpassen  */
+#about p{
+    /* right: 5%; */
+    color:black;
+}
+#leidenschaft{
+    text-align: left;
+}
+#zusammen h1{
+    color: rgb(8, 87, 90);
+    text-align: center;
+}
+/* zweite Seite - home2 */
+#home2 img {
+    margin: 0px 0 0 25px;
+    width:35%;
+    transition: all 0.5s;
+} 
+#home2 .navbar{
+    border-radius: 0px;
+}
+/* zweite Seite - Studienreise  */
+#studienreise {
+    color:hotpink;
+    padding-top:30px;
+    align-items: center;
+}
+#studienreise a{
+    font-size: 10px;
+    color:black;
+    padding-top:30px;
+    align-items: center;
+}
+#backArr{
+    color:hotpink;
+    background-color: blue;
+    padding-top:30px;
+    align-items: center;
+}
+#studienreise h4{
+    font-size:18px;
+    color:black;
+    font-family: cursive;
+}
+#studienreise h6{
+    font-size:14px;
+    color:white;
+    font-weight: 100;
+}
+#studienreise p{
+    color:black;
+    font-size:14px;
+    font-family: serif;
+}
+#studienreise button{
+    font-size:12px;
+    background-color: rgb(115, 154, 238);
+    color:white;
+    border:none;
+    line-height: 1.0;
+}
+/* zweite Seite - Highlights  */
+#highlights{
+    color:black;
+    font-family: 'American Typewriter Regular',cursive;
+    font-size: 10;
+}
+#highlights h4{
+    font-weight: 600;
+}
+#highlights h5{
+    font-family: 'American Typewriter Regular',cursive;
+    font-weight: 600;
+    color:black;
+}
+#highlights p{
+    color:black;
+}
+#highlights .card{
+    border: 1px solid #58e1f3;
+}
+#highlights {
+    border-top-left-radius: 25px;
+}
+#highlights hr{
+    color:rgba#58e1f3;;
+    width:20%;
+}
+/* FAKTEN */
+#fakten{
+    color:black;
+}
+.fak-hr{
+    width: 100%;
+    color: black;
+}
+#fakten h5{
+    color:rgb(35, 148, 192);
+}
+.black-text{
+    color:black !important;
+}
+#fak-con{
+    border: 1px solid #58e1f3;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* border-radius: 0.5rem; */
+}
+.hinweis{
+    color:#58e1f3;
+}
+/* SECTION ABLAUF  */
+.h1text{
+    color: #1a64a0;
+}
+#ablauf {
+    color:black;
+    background-color: rgb(236, 249, 252);
+}
+#ablauf a,h5{
+    color: #1a64a0;
+}
+ /* SECTION INFO */
+#info h2{
+    margin: 0 0 0 0;
+}
+#info .accordion{
+    border: 1px solid #58e1f3;
+    border-radius: 1%;
+}
+/* Part: footer  */
+#footer{
+    background-color: rgba(10, 109, 148, 0.8);
+    font-family: 'American Typewriter Regular', serif;
+    font-size: 12px;
+    align-items: center;
+}
+#footer p{
+    color:white;
+}
+#footer a.navUp{
+    float:right;
+}
+#fblogo.col-1{
+/* ??? logo verschieben */
+
+}
+
+/*  BEISPIEL FÜR RUNDE ECKEN
+    .untereBar ul{
+    color:#32b6b6;
+    background-color: aliceblue;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #32b6b6;
+} */
+
+/*
+verschiedene Zugriffsmöglichkeiten::
+direktes html/css element:  a{}
+selbstbenannte id:          #a{}
+item:                       .a{}
+item innerhalb sb id:       #footer a.navUp{}
+}
+
+*/
