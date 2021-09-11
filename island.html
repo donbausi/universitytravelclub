@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>University Travel Club</title>
+
+        <!-- FAVICON-->
+        <link rel="icon" href="assets/img/favicon.png" sizes="32x32" type="image/png">
+
+        <!-- ICONS & STYLES -->
+            <!-- Bootstrap CSS muss als erste CSS geladen werden, sonst überlädt bootstrap alles -> error -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+            <!-- eigene css + icons von fontawesome-->
+        <link href="./assets/css/style.css"  rel="stylesheet" data-purpose="Layout StyleSheet" title="Default">
+            <!-- FONTAWESOME -- bisher noch nicht verwendet -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/5c9232bba8.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>    
+        <!-- HEADER -->
+        <section id="home2">
+            <div class= "home2">
+                <nav class="navbar sticky-top navbar-dark bg-dark  navbar-toggler">
+                    <!-- Einbindung Logo -->
+                    <a href="./index.html" target="_self">
+                    <img src="assets/img/logoinverted.png"   alt="UTC Logo" width="35%"  class="logo2">
+                    </a>
+                    <div class="container-fluid-2">
+                    <!-- Nav Items in zweitem Container -->
+                        <ul class="nav justify-content-end">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        
+        <!-- studienreise -->
+        <section id="studienreise">
+            <div class="container">
+                <div class="row">
+                    <!-- NAV ZUR LANDING PAGE - eigene COL -->
+                    <div class="col-12">
+                        <a class="backArr" href="./index.html" ><i class="fas fa-chevron-left"> ZURÜCK ZUR MAINPAGE</i>
+                        </a> 
+                    </div>  
+                    <div class="col-10">
+                        <h4><strong><br><br>Studienreise "Fire & Ice"-Island im Winter</strong></h4>
+                        <p>20. Feb. - 02. Mar. 2021</p>
+                    </div>
+                    <div class="col-1"><br>
+                        <button type="button" class="btn btn-info">PLATZ RESERVIEREN</button>
+                    </div>  
+                    <div class="col-1"></div>              
+                </div>
+                <div class="row">
+                    <!-- ISLAND KARTE TRIP -->
+                    <div class="card bg-white text-white" id="island">
+                        <img src="assets/img/kartezugeschnitten.png" class="card-img" alt="karte_UTC_reise_fireandice">
+                        <div class="card-img-overlay">
+                        <h6 class="new_text" id="cardText2"><strong>ISLAND - REISEROUTE</strong></h6>                        
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <br><br>
+        </section>
+
+        <!-- highlights -->
+        <section id="highlights">
+            <div class="container">
+                <!-- erste Reihe  -->
+                <div class="row">
+                    <h4>Die Highlights im Überblick</h4><br>
+                    <!-- erste Reihe erste Karte  -->
+                    <div class="col-md-4"> 
+                        
+                        <div class="card" style="width: 16rem;">
+                            <img src="assets/img/chris-lawton-rH810coWgTI-unsplash.jpg" class="card-img-top" alt="Blaue Lagune">
+                            <div class="card-body">
+                              <h5 class="card-title">Blaue Lagune</h5>
+                              <p class="reise-title">Islands inoffizieller Nationalsport ist das herumplanschen in einem Überangebot an geothermischem Wasser.
+                                  Wir besuchen die Königin der Thermalbäder, die Blaue Lagune. Im Winter ist das Bad nicht so gefüllt und mit 
+                                  Schnee und Eis ringsum ein besonderes Erlebnis.
+                              </p>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <!-- erste Reihe zweite Karte -->
+                    <div class="col-md-4"> 
+                        <div class="card" style="width: 16rem;height:min-content">
+                            <img src="assets/img/jökurzugeschnitten.jpg" class="card-img-top" alt="Jökursalon">
+                            <div class="card-body">
+                              <h5 class="card-title">Jökursalon</h5>
+                              <p class="reise-title">Riesige blaue Eisberge treiben in einer spiegelglatten Lagune dem Meer entgegen. Diese surreale
+                                  Szene ist perfekte Kulisse für Fotografen und Filmemacher (Batman Begins, James Bond). Zu unserer 
+                                  Reisezeit sind keine Bootsfahrten möglich, wir machen einen Spaziergang am Ufer entlang.
+                              </p>
+                            </div>
+                        </div>  
+                        <br>  
+                    </div>      
+   
+                    <!-- erste Reihe dritte Karte    -->
+                    <div class="col-md-4"> 
+                        <div class="card" style="width: 16rem;">
+                            <img src="assets/img/jonatan-pie-7FfG8zcPcXU-unsplash.jpg" class="card-img-top" alt="Polarlicht">
+                            <div class="card-body">
+                              <h5 class="card-title">Polarlicht</h5>
+                              <p class="reise-title">Jeder will es erleben, das berühmte Polarlicht, das lange Winternächte in natürliche Lava-Lampen verwandelt.
+                                  Es gehört auch eine gute Portion Glück dazu, aber grundsätzlich besteht in unserem Reisezeitraum eine gute Chance, den Lichtzauber zu sehen.
+                              </p>
+                            </div>
+                          </div>
+                    </div>       
+                </div>
+                <div class="row">
+                    <!-- zweite Reihe erste Karte  -->
+                    <div class="col-md-3"> 
+                        <br><br>
+                        <div class="card" style="width: 16rem;">
+                            <img src="assets/img/robert-eklund-8q9QRt-gtJQ-unsplash.jpg" class="card-img-top" alt="Reykjavik_img">
+                            <div class="card-body">
+                              <h5 class="card-title">Reykjavik</h5>
+                              <p class="reise-title">Die nördlichste Hauptstadt der Welt ist ein Mix aus bunten Häusern, einem eigenwilligen, kreativen
+                                  Menschenschlag, Design und Architektur und einem ausschweifenden Nachtleben. Für seine geringe Größe ist Reykjavik 
+                                  erstaunlich weltmännisch, voller Kunst und kulinarischer Hights mit viel Sinn für Ästhetik. 
+                                  Inmitten von schneebedeckten Gipfen, rauer See und kristallklarer Luft werden wir die Stadt nun auch im Winter kennenlernen dürfen.
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-1">
+                    </div>
+                    <!-- zweite Reihe zweite Karte -->
+                    <div class="col-md-3">
+                        <br><br> 
+                        <div class="card" style="width: 16rem;">
+                            <img src="assets/img/jonatan-pie-GOz8kY2bMO8-unsplash.jpg" class="card-img-top" alt="Vulkan Hekla & Katla">
+                            <div class="card-body">
+                              <h5 class="card-title">Vulkan Hekla & Katla</h5>
+                              <p class="reise-title">Wie böse Stiefschwestern aus einem isländischen Märchen spucken die beiden Vulkane Hekla und Katla 
+                                  im Süden Islands bis heute Feuer und drohen gern mit Dampf und Rauch und bringen Gletscher zum Schmelzen. In einer separaten Tour fahren wir 
+                                  - sofern es die Witterung zulässt - zu einem der beiden zu Besuch und wagen einen Blick in den hitzigen Krater.
+                              </p>
+                            </div>
+                          </div>  
+                    </div>  
+                    <div class="col-md-1">
+                    </div>         
+                    <!-- zweite Reihe dritte Karte    -->
+                    <div class="col-md-4">
+                        <br><br> 
+                        <div class="card" style="width: 16rem;">
+                            <img src="assets/img/david-kohler-mN0m6AAWm0I-unsplash.jpg" class="card-img-top" alt="Geysir">
+                            <div class="card-body">
+                              <h5 class="card-title">Geysir</h5>
+                              <p class="reise-title">Der große Geysir spuckt nur alle 80 Jahre Wasser, dann aber ist die Fontäne 120 Meter hoch. Der etwas kleinere
+                                  Stokkur schießt alle 15 Minuten in die Höhe, ist aber auch als kleinerer Bruder sehr beeindruckend. Das gesamte geothermale Gebiet
+                                  rund um den Geysir brodelt, blubbert und kocht. Es ist faszinierend, wie kochende Flüsse durch gelb-blauen Steinen und 
+                                  Eisschollen fließen. Hier bekommt das Motto unserer Reise "Fire & Ice" richtig Sinn.
+                              </p>
+                            </div>
+                          </div>
+                    </div>       
+                </div>
+            </div> <br>
+            <!-- Trennlinie  -->
+            <hr>
+            <br>
+        </section>
+        <!-- Fakten   -->
+        <section id="fakten">
+            <div class="container">
+                <div class="row">
+                    <h1>Fakten-Check</h1>
+                    <div class="col-md-7">
+                        <br>
+                        <!-- linker container - Reisezeitraum - Überschriften und Texte  -->
+                        <div class="container" id="fak-con"><br>
+                            <h4 class="card-title"><strong>Reisezeitraum</strong></h4><br>
+                            <h5 class="new_text">20. FEBRUAR - 02. MÄRZ 2021 / 12 TAGE BZW. 10 ÜBERNACHTUNGEN</h5>
+                            <ul>
+                                <li>
+                                    <p class="reise-title">Der Abflug findet wahlweise von den Flughäfen <strong>Berlin</strong>,<strong>Düsseldorf</strong>,<strong>Frankfurt</strong> und <strong>München</strong> statt.
+                                        Weitere Flughäfen können auf Anfrage gerne noch gebucht werden.</p><br>
+                                </li>
+                            </ul>
+                            <h4 class="card-title"><strong>Buchungsklassen</strong></h4><br>
+                            <h5 class="new_text">Studenten-Tarif*</h5>
+                            <ul>
+                                <li>
+                            <p class="reise-title">Unterkunft im (gemeinsamen) Mehrbettzimmer mit Gemeinschaftsbad <br>(nur für die Reisegruppe, Hygienemaßnahmen werden eingehalten).</p>
+                            <h5 class="new_text">Standard-Tarif</h5>
+                        </li>
+                    </ul>
+                            </li>
+                            </ul>
+                            <ul>
+                                <li>
+                            <p class="reise-title">Unterkunft im Mehrbettzimmer mit Gemeinschaftsbad <br>(nur für die Reisegruppe, Hygienemaßnahmen werden eingehalten).</p>
+                        </li>
+                    </ul>
+                            <h5 class="new_text">Comfort-Doppelzimmer</h5>
+                            <ul>
+                                <li>
+                            <p class="reise-title">mit privatem Bad <br>(Zimmerpartner muss angegeben werden)</p>
+                        </li>
+                    </ul>
+                            <h5 class="new_text">Comfort-Einzelzimmer</h5>
+                            <ul>
+                                <li>
+                            <p class="reise-title">mit privatem Bad.</p>
+                        </li>
+                    </ul>
+                            <br>
+                            <p class="reise-title"><strong>WICHTIGER HINWEIS:</strong> du möchtest lieber nur mit deinem Geschlecht in einem Zimmer schlafen, bist nachtaktiv, bist geräuschempfindlich
+                                (ein Schnarcher!), geruchsempfindlich (Käsefüße!), oder hast Eigenheiten (ich schlafe gern bei offenem Fenster, ich muss immer die Heizung auf höchster 
+                                Stufe haben (etc.) oder hast sonstige Eigenheiten ... <strong>wenn auch nur einer dieser Punkte auf dich zutrifft, buche bitte ein
+                                Doppelzimmer mit einem Gleichgesinnten oder ein Einzelzimmer!
+                            </strong></p>
+                            <p class="hinweis"><strong>HINWEIS-STUDENTEN-TARIF:</strong><br>
+                                GÜLTIG FÜR IMMATRIKULIERTE STUDIERENDE SOWIE ABSOLVENTEN, DIE UNTER DIE EINKOMMENSGRENZE DER GERINGFÜGIGEN BESCHÄFTIGUNG FALLEN, Z.B. 
+                                PRAKTIKANTEN, MINI- UND MIDIJOBS SOWIE ARBEITSLOSIGKEIT</p><br>
+                            <!-- wer darf mit -->
+                            <h4 class="card-title"><strong>WER DARF MIT?</strong></h4>
+                            <h5 class="new_text"><strong>Mitreiseberechtigte sind:</strong></h5>
+                            <ul>
+                                <li>Studenten*innen (aktuelle Immatrikulation bei Anmeldung vorweisen)</li>
+                                <li>Hochschulmitarbeiter*innen</li>
+                                <li>Personen, die auf der Reise eine Funktion innehaben (Tourguide, Workshop-Leiter, etc.)</li>
+                                <li>Alumni, die zu Studentenzeiten bereits auf einer Reise dabei waren.</li>
+                            </ul><br>
+                            <p class="reise-title">Bitte hab Verständnis dafür, dass nicht-immatrikulierte Partner, Verwandte und Freunde deshalb nicht dabei sein können.</p>
+                        </div><br>
+                    </div>
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-4"><br>
+                        <!-- zweiter Container - KOSTENTABELLE Leistungen Anmeldefrist -->
+                        <div class="container" id="fak-con">   <br>                         
+                            <h4 class="card-title"><strong>Kosten</strong></h4>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="new_text">TARIFE</h5>
+                                    <h5 class="blaue-h5">STUDENTEN-TARIF*</h5>
+                                    <h5 class="black-text">STANDARD-TARIF</h5>
+                                </div>
+                                <div class="col-6">
+                                    <h5>PREISE</h5><br>
+                                    <h5 class="new_text">1195.-</h5>
+                                    <h5 class="black-text">1395.-</h5>
+                                </div>
+                            </div>
+                            <hr class="fak-hr">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="black-text">COMFORT-DOPPELZIMMER</h5>
+                                </div>
+                                <div class="col-6">
+                                    <h5 class="black-text">1495.-</h5>
+                                </div>
+                            </div>
+                            <hr class="fak-hr">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 class="black-text">COMFORT-EINZELZIMMER</h5>
+                                </div>
+                                <div class="col-6">
+                                    <h5 class="black-text">1695.-</h5>
+                                </div>
+                            </div>
+                            <br>
+                            <!-- INC LEISTUNGEN  -->
+                            <h4 class="card-title"><strong>INKLUDIERTE LEISTUNGEN</strong></h4>
+                            <ul>
+                                <li>Internationaler Hin- und Rückflug + Airport Transfers</li>
+                                <li>Privater Reisebus</li>
+                                <li>Stadtführung Reykjavik</li>
+                                <li>Eintritt "Premium-Paket" in die Blaue Lagune</li>
+                                <li>Alle Übernachtungen</li>
+                                <li>Eintritt in Nationalparks, Sehenswürdigkeiten etc.</li>
+                                <li>10 x Frühstück</li>
+                            </ul>
+                            <h4 class="card-title"><strong>ANMELDEFRIST</strong></h4>
+                            <h5><strong>30. NOVEMBER 2020</strong></h5>
+                            <p>Es gibt <strong>35 freie Plätze.</strong><br>
+                            Anmeldung nur solange genügend Plätze da sind.</p><br>
+                            <h4 class="card-title"><strong>ERWARTUNGEN</strong></h4>
+                            <img src="assets/img/erwartungen.png" width=100%>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><br>
+        <!-- SECTION ABLAUF  -->
+        <section id="ablauf">
+            <div class="container">
+                <h4 class="card-title"><strong>Ablauf der Reise</strong></h4><br>
+                <h5 class="new_text"><strong>UNTERKÜNFTE</strong></h5>
+                <p class="reise-title">Wir haben einen besonders guten Übernachtungsdeal bekommen, weil wir an drei Orten in den Hostels derselben Betreiber wohnen.
+                    In Island haben die Hostels Hotel-Standard, während die Hotels kaum mehr zu bieten haben, sind diese jedoch unbezahlbar. Darüber hinaus überzeugt
+                    mich deren Konzept einer nachhaltigen und umweltbewussten... Unsere Hotels haben alle einen Aufenthaltsraum, Kochgelegenheit, eine eigene Bar
+                    und oft auch einen Billiardtisch oder andere Angebote, mit denen wir uns gemütliche Winterabende machen können.
+                </p>
+            </div>
+            
+            <div class="container">
+                <!-- ERSTE UNTERKUNFT  -->
+                <div class="row">
+                    <div class="col-1">
+                        <h1 class="h1text">1</h1>
+                    </div>
+                    <div class="col-6">
+                        <h5 class="h5text"><strong>LOFT-HOSTEL REYKJAVIK, INSGES. 3 NÄCHTE (2 BEI ANKUNFT, 1 VOR ABFLUG</strong></h5>
+                        <a class="atext" href="https://www.hihostels.com/de/hostels/reykjavik-loft-hostel">https://www.hihostels.com/de/hostels/reykjavik-loft-hostel</a>   
+                        <p class="reise-title"><br><strong>Adresse:</strong>Bankastraeti 7, 101 Reykjavik<br>
+                            Sehr zentral, super modern und Top-Bewertungen. In Fußlaufweite aller Sehenswürdigkeiten und im Ausgeh-Viertel von Reykjavik gelegen. Hat auch eine 
+                            eigene Bar. Nachts kann es auch mal lauter werden, Ohropax werden kostenlos ausgeteilt. Im Vergleich zur Khaosan-Road in Bangkok ist das jedoch ein seichter Witz.
+                            Wer unbedingt seine Ruhe möchte, bucht Doppelzimmer oder Einzelzimmer und gibt mir einen Hinweis. Ich buche euch dann in ein anderes Hotel in der Nähe ein.
+                        </p>                     
+                    </div>
+                    <div class="col-2"> 
+                        <img src="assets/img/Unterkuenfte/img55057-Double-de-lux.jpg" height=100px width=auto>
+                    </div>
+                    <div class="col-1">
+                    </div>
+                    <div class="col-2"> 
+                        <img src="assets/img/Unterkuenfte/img55053-Reception.jpg" height=100px width=auto>
+                    </div>
+                </div><br>
+                <!-- ZWEITE UNTERKUNFT -->
+                <div class="row">
+                    <div class="col-1">
+                        <h1 class="h1text">2</h1>
+                    </div>
+                    <div class="col-6">
+                        <h5 class="h5text"><strong>HERADSKOLINN LAUGARVATN, 2 NÄCHTE</strong></h5>
+                        <a class="atext" href="https://heradsskolinn.is">https://heradsskolinn.is</a>   
+                        <p class="reise-title"><br><strong>Adresse:</strong>Bankastraeti 7, 101 Reykjavik<br>
+                            Das beste Hotel auf unserer Reise, wunderschön gelegen am Laugarvatn-See, der von einer heißen Therme gespeist wird (man kann auch im Winter in den See springen!),
+                            nebenan gibt es auch eine richtige Therme, um einen Tag so richtig zu entspannen. Man kann von hier aus jedoch auch tolle Ausflüge starten. Laugarvatn ist ein toller
+                            Punkt, um Nordlichter zu beobachten. Wir besuchen hier gemeinsam die geothermale Bäckerei.
+                        </p>                     
+                    </div>
+                    <div class="col-2"> 
+                        <img src="assets/img/Unterkuenfte/Heradsskolinn_36-3-950x600.jpg" height=100px width=auto>
+                    </div>
+                    <div class="col-1">
+                    </div>
+                    <div class="col-2"> 
+                        <img src="assets/img/Unterkuenfte/Heradsskolinn_25-950x600.jpg" height=100px width=auto>
+                    </div>
+                </div><br>
+                <!-- DRITTE UNTERKUNFT  -->
+                <div class="row">
+                    <div class="col-1">
+                        <h1 class="h1text">3</h1>
+                    </div>
+                    <div class="col-6">
+                        <h5 class="h5text"><strong>VIK HOSTEL, 2 NÄCHTE</strong></h5>
+                        <a class="atext" href="https://www.hostel.is/hostels/vik-hi-hostel">https://www.hostel.is/hostels/vik-hi-hostel</a>   
+                        <p class="reise-title"><br><strong>Adresse:</strong>Bankastraeti 7, 101 Reykjavik<br>
+                            Super gemütliches, kleines Hostel am oberen Stadtrand von Vik. Von hier aus kann man zu Fuß den Black Sand Beach erreichen oder auf einen Plateuberg steigen,
+                            von wo aus man einen fast endlosen Blick über die Küste hat. Wer möchte kann von hier aus eine Tour zum Vulkan Hekla starten, sofern es die Witterung zulässt.
+                        </p>                     
+                    </div>
+                    <div class="col-2"> 
+                        <img src="assets/img/Unterkuenfte/vik_hi_hostel.jpg" height=100px width=auto>
+                    </div>
+                    <div class="col-1">
+                    </div>
+                    <div class="col-2"> 
+                        <img src="assets/img/Unterkuenfte/vik_hi_hostel_iceland_8.jpg" height=100px width=auto>
+                    </div>
+                </div><br>
+                <!-- VIERTE UNTERKUNFT  -->
+                <div class="row">
+                    <div class="col-1">
+                        <h1 class="h1text">4</h1>
+                    </div>
+                    <div class="col-6">
+                        <h5 class="h5text"><strong>HÖFN HI HOSTEL, 2 NÄCHTE</strong></h5>
+                        <a class="atext" href="https://www.hostel.is/hostels/hofn-hi-hostel">https://www.hostel.is/hostels/hofn-hi-hostel</a>   
+                        <p class="reise-title"><br><strong>Adresse:</strong>Hvannabraut 3, 780 Höfn<br>
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </p>                     
+                    </div>
+                    <div class="col-2"> 
+                        <img src="assets/img/Unterkuenfte/hofn_hi_hostel_14.jpg" height=100px width=auto>
+                    </div>
+                    <div class="col-1">
+                    </div>
+                    <div class="col-2"> 
+                        <img src="assets/img/Unterkuenfte/hi_hostel_hofn_south_iceland_2_private_4_person.jpg" height=100px width=auto>
+                    </div>
+                </div><br>
+                <!-- FÜNFTE UNTERKUNFT  -->
+                <div class="row">
+                    <div class="col-1">
+                        <h1 class="h1text">5</h1>
+                    </div>
+                    <div class="col-6">
+                        <h5 class="h5text"><strong>SELFOSS HI HOSTEL, 1 NACHT</strong></h5>
+                        <a class="atext" href="https://www.hihostels.com/de/hostels/reykjavik-loft-hostel">https://www.hihostels.com/de/hostels/reykjavik-loft-hostel</a>   
+                        <p class="reise-title"><br><strong>Adresse:</strong>Bankastraeti 7, 101 Reykjavik<br>
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </p>                     
+                    </div>
+                    <div class="col-2"> 
+                        <img src="assets/img/Unterkuenfte/selfoss_hi_hostel_iceland.jpg" height=100px width=auto>
+                    </div>
+                    <div class="col-1">
+                    </div>
+                    <div class="col-2"> 
+                        <img src="assets/img/Unterkuenfte/selfoss_hi_hostel_3.jpg" height=100px width=auto>
+                    </div>
+                </div><br>
+                </div>
+            </div><br><br>
+        </section>
+        <!-- ACCORDION  -->
+        <section id="info">
+            <div class="container">
+                <h1 class="card-title"><strong>Länderinfo | Gesundheit & Sicherheit</strong></h1><br>
+                <div class="accordion" id="accordionExample">
+                    <!-- ITEM EINS  -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          <h4 class="new_text"><strong>CORONA-INFO & SONDERREGELUNG STORNIERUNG</strong></h4>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="reise-title"><strong>Sollte uns kurz vor Abreise eine coronabedingte Einreisebeschränkung treffen, verschiebt sich die Reise um genau 1 Jahr.</strong>
+                            Eure Buchung bleibt damit bestehen, es sei denn ihr tretet schriftlich von dieser zurück. Einbezahlte Gelder werden ohne Abzug rückerstattet.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ITEM ZWEI  -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h4 class="new_text"><strong>KLIMA / AUSRÜSTUNG</strong></h4>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p class="reise-title"><strong>Warme Kleidung sowie festes Schuhwerk</strong> sollte jeder dabei haben, damit unsere Touren nicht ins Wasser fallen.<br>
+                            Hier ist das Handy gern gesehen, damit wir alle den Kontakt untereinander behalten können.<br>
+                            Und vergesst BITTE euren Reisepass nicht!
+                        </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ITEM DREI  -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h4 class="new_text"><strong>GESUNDHEIT</strong></h4>
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <p class="reise-title">Bei <strong>krankheitsbedingtem Ausfall</strong> bitte schnellstmöglich Bescheid geben.<br>
+                                Da wir einen <strong>Langstreckenflug</strong> unternehmen, sollte sich jeder vergewissern, dass dies auch gesundheitlich möglich ist.<br>
+                                Ansonsten werden die Touren in mäßigem Tempo zurückgelegt, sodass jeder mithalten kann. Versprochen!
+                            </p>
+                        </div>
+                        </div>
+                      </div>
+                      <!-- ITEM VIER  -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <h4 class="new_text"><strong>REISEORDNUNG</strong></h4>
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="reise-title">Der <strong>deutsche Reisepass</strong> steht auf Platz Drei im Weltweiten Ranking und man kann in 191 Länder visafrei einreisen.<br>
+                                Es gelten keine besonderen Sitten und Bräuche, wie zum Beispiel in der arabischen Welt. Viel Spaß beim kennenlernen!<br>
+                                Bisher stehen noch keine <strong>Unwetterwarnungen oder sonstige Störungen</strong> an, als dass wir alle eine großartige Reise erwarten! 
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section><br>
+        <!-- FOOTER -->
+        <section id="footer">
+            <div class="container">
+                <!-- oberer footer -->
+                <div class="row">
+                    <div class="col-4">
+                        <p><br><br><strong>Kontakt</strong><br><br>
+                        Julia Schnitzer<br>
+                        post@university-travel-club.org</p>
+                    </div>
+                    <div class="col-5"><br><br>
+                        <p>
+                            <!-- newsletter Abteilung  -->
+                            <strong>Newsletter abonnieren</strong>   <br>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">@</span>
+                                <input type="text" class="form-control" placeholder="E-Mail Adresse" aria-label="Email" aria-describedby="basic-addon1">
+                                <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon03">Abonnieren</button>
+                            </div>                                
+                        </p>           
+                    </div>
+                    <!-- logos  -->
+                    <div class="col-1" id="fblogo"><br><br>
+                        <i class="fab fa-facebook-f"> </i><br>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="col-1" ><br><br>
+                        <!-- links  -->
+                        <a href="https://www.facebook.com/universitytravelclub">Facebook</a><br>
+                        <a href="https://www.instragram.com/universitytravelclub">Instagram</a>         
+                    </div>
+                </div><br><br>
+                <!-- unterer footer -->
+                <div class="row">
+                    <div class="col-5">
+                        <p>
+                            © COPYRIGHT 2021 - UNIVERSITY TRAVEL CLUB
+                        </p>                   
+                    </div>
+                    <div class="col-4">
+                    </div>
+                    <div class="col-1">
+                        Impressum   
+                    </div>
+                    <div class="col-1">      
+                        Datenschutz       
+                    </div>
+                    <div class="col-1">
+                        <!-- NAV PFEIL um nach oben zurückzukehren --> 
+                        <a class="navUp" href="#home2" ><i class="fas fa-arrow-circle-up"></i>
+                        </a>              
+                    </div>                                 
+                </div>
+            </div>
+        </section>
+
+        <!-- bootstrap Einbindung hinterer Teil -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </body>
+</html>
+
+    <!-- immer wieder <br> eingefügt um Abstände im Dokument zu wahren-->
+
+    <!-- Seitenaufteilung         max 12 col == 1+10+1 | 3+9 | 3+4+4+1 | ... >
+        kann entweder direkt angegeben werden 9 +3, oder 1 + 1 füllt auch komplett auf
+    <div class="container">
+    <div class="1-10-1row">
+        <div class="col-lg-1">        
+        </div>
+        <div class="col-lg-10">
+        </div>
+        <div class="col-lg-1">
+        </div>
+    </div>
+
+    oder 
+
+       <div class="1-1row">
+        <div class="col-lg-1">        
+        </div>
+        <div class="col-lg-1">
+        </div>
+        </div>
