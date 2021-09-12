@@ -11,12 +11,11 @@ Weitere Hinweise, wie der Code funktioniert (eigentlich nur einfaches HTML + CSS
 
 Diverse Elemente besitzen noch keine richtige Funktion und müssen noch "befüllt" werden. :
   - Seite1. newsletter abonnieren (könnte link auf unteren Button sein)
-  - S1. navbar - rechtes Rechteck ausfüllen / Hintergrund weg + auf bg
   - S1. mehr erfahren der anderen Seiten
   - S1. impressum / datenschutz ?! sollten nur 2 .html abgeben ?!
 
   - Seite2. genauso navbar - menübutton
-  - S2. button - platz reservieren
+  - S2. studienreise - button - platz reservieren
   - S2. kosten - Schrift überlappt in mittlerer Auflösung
   - S2. erwartungen sind nur img bisher - keine Interagierbaren Elemente
 
