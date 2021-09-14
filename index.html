@@ -25,29 +25,25 @@
 
     </head>
     <body>    
-        <!-- NAVBAR  -->
-        <nav class="navbar navbar-dark bg-dark">
-            <!-- Einbindung Logo -->
-            <a href="#home" target="_self">
-            
-                <!-- <img src="assets/img/logoinverted.png"   alt="UTC Logo" width="100%" height="100%" class="logo"> -->
-            
-            </a>
-            <div class="container-fluid-2">
-            <!-- Nav Items in zweitem Container -->
-                <ul class="nav justify-content-end">
-                    <li class="nav-item"> 
-                    <a class="nav-link active" aria-current="page" href="#">Newsletter abonnieren       </a>
-                    </li>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </ul>
-            </div>
-        </nav>
-        <nav class="navbar navbar-dark bg-dark" id="navABS"></nav>
-        <!-- HEADER -->
+        <!-- HOME -->
         <section id="home">
+            <!-- NAVBAR  -->
+            <nav class="navbar navbar-dark">           
+                <!-- Einbindung Logo -->
+                <a href="#home" target="_self">
+                </a>
+                <div class="container-fluid-2">
+                <!-- Nav Items in zweitem Container -->
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"> 
+                        <a class="nav-link active ohneNewsletter"  aria-current="page" href="#inputGroupFileAddon03">Newsletter abonnieren       </a>
+                        </li>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </ul>
+                </div>
+            </nav>
             <div class= "home">
                 <h2 class="card-title"> <strong>&#187together around the world&#171</strong></h2><br>
                 <p class="reise-title"> Wir bieten Studienreisen für Studierende und <br>
@@ -64,8 +60,7 @@
         <section id="reiseangebot">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-1"> hello nerds here is a little secret for you =) 
-                        "be water my friend"
+                    <div class="col-lg-1"> 
                     </div>
                     <div class="col-lg-10">
                         <h1> <strong>Reiseangebot</strong> </h1><br>
@@ -221,7 +216,6 @@
                 </div>
             </div>
         </section>
-        <!-- section fb Ende -->
         <!-- FOOTER -->
         <section id="footer">
             <div class="container">
@@ -232,27 +226,32 @@
                         Julia Schnitzer<br>
                         post@university-travel-club.org</p>
                     </div>
+                    <!-- newsletter Abteilung  -->
                     <div class="col-5"><br><br>
-                        <p>
-                            <!-- newsletter Abteilung  -->
-                            <strong>Newsletter abonnieren</strong>   <br>
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" id="basic-addon1">@</span>
-                                <input type="text" class="form-control" placeholder="E-Mail Adresse" aria-label="Email" aria-describedby="basic-addon1">
-                                <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon03">Abonnieren</button>
-                            </div>                                
+                            <div class="input-group mb-3">                                
+                                <form class="form-check-inline mb-3" action="send-mail.php" method="POST" enctype="multipart/form-data" role="form">
+                                    <p><strong>Newsletter abonnieren</strong>   <br></p>
+                                        <div class="row">
+                                            <input name="email" type="email" class="form-control " id="exampleFormControlInput1" placeholder="E-mail Adresse">
+                                            <button type="submit" class="btn btn-outline-secondary form-control margin-left-10" id="inputGroupFileAddon03"><strong>ABONNIEREN</strong></button>
+                                        </div>                                    
+                                </form>    
+                            </div>                            
                         </p>           
                     </div>
                     <!-- logos  -->
-                    <div class="col-1" id="fblogo"><br><br>
-                        <i class="fab fa-facebook-f"> </i><br>
-                        <i class="fab fa-instagram"></i>
+                    <div class="col-3" id="fblogo"><br><br>
+                        <div class="col-6 display-content">
+                            <i class="fab fa-facebook-f"> </i><a href="https://www.facebook.com/universitytravelclub" class="margin-left-10">Facebook</a>
+                        </div>
+                       
+                        <div class="col-6 display-content margin-top-2">
+                            <i class="fab fa-instagram margin-top-2"></i><a href="https://www.instragram.com/universitytravelclub" class="margin-left-10">Instagram</a> 
+                        </div>
+                                
+                     
                     </div>
-                    <div class="col-1" ><br><br>
-                        <!-- links  -->
-                        <a href="https://www.facebook.com/universitytravelclub">Facebook</a><br>
-                        <a href="https://www.instragram.com/universitytravelclub">Instagram</a>         
-                    </div>
+                    
                 </div><br><br>
                 <!-- unterer footer -->
                 <div class="row">
@@ -261,12 +260,12 @@
                             © COPYRIGHT 2021 - UNIVERSITY TRAVEL CLUB
                         </p>                   
                     </div>
-                    <div class="col-4">
+                    <div class="col-2">
                     </div>
-                    <div class="col-1">
+                    <div class="col-2">
                         Impressum   
                     </div>
-                    <div class="col-1">      
+                    <div class="col-2">      
                         Datenschutz       
                     </div>
                     <div class="col-1">
